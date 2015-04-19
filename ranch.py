@@ -5,9 +5,10 @@ import platform
 import requests, json
 
 def ranch_it_up():
-    pic = requests.get("http://api.tumblr.com/v2/tagged?tag=ranch&api_key=U74eP3r3GYK3rm94ngtkV2w5csBoHLKriUGpnNh89yApV8VCqB")
+    pic = requests.get("http://api.tumblr.com/v2/tagged?tag=ranch%20dressing&api_key=U74eP3r3GYK3rm94ngtkV2w5csBoHLKriUGpnNh89yApV8VCqB")
     pic = pic.json()
 
+    pic = pic['response']['photos']['original_size']['url']
     
 
     with open('access_token.cfg','r') as f:
@@ -37,12 +38,14 @@ def ranch_it_up():
     page_token = page_token['data'][0]['access_token']
 
     attachment =  {
-    'picture': 'http://i.ytimg.com/vi/X6r0VQb1mqg/maxresdefault.jpg'
+    'name': 'Ranch of the Day',
+    'caption': 'Ranch it up!',
+    'picture': pic
 	}
 
     graph = facebook.GraphAPI(access_token=page_token)
 
-    #graph.put_wall_post(message='The Daily Ranch', attachment=attachment)
+    graph.put_wall_post(message='The Daily Ranch', attachment=attachment)
 
 
 
