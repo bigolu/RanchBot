@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import facebook
 import config
 import time
