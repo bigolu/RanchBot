@@ -6,11 +6,14 @@ import requests, json
 import random
 
 def ranch_it_up():
+    
+    quotes = ['"Hit this ranch"','"Sup Mellow Mike?"','""','','','','','']
+
     pic = requests.get("http://api.tumblr.com/v2/tagged?tag=ranch%20dressing&api_key=U74eP3r3GYK3rm94ngtkV2w5csBoHLKriUGpnNh89yApV8VCqB")
     pic = pic.json()
     randResponse = random.randint(0, len(pic['response']))
     pic = pic['response'][randResponse]['photos'][0]['original_size']['url']
-    
+
     with open('access_token.cfg','r') as f:
         access_token = f.read()
 
