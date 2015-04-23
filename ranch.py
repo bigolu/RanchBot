@@ -25,7 +25,7 @@ def ranch_it_up():
     with open('access_token.cfg','r') as f:
         access_token = f.read()
 
-    """ This was what we did to get the permanent key
+    """This was what we did to get the permanent key
 
         graph = facebook.GraphAPI(access_token=access_token)
     access_token = graph.extend_access_token(app_id=config.app_id, app_secret=config.app_secret)['access_token']
@@ -48,8 +48,10 @@ def ranch_it_up():
     page_token = requests.get("https://graph.facebook.com/v2.2/%s/accounts?access_token=%s" %(user_id, LongLive))
     page_token = page_token.json()
 
+    print page_token
+
     page_token = page_token['data'][0]['access_token']
-    print page_token"""
+    print page_token """
 
     attachment =  {
     'name': '%s' %(randQuote),
