@@ -22,7 +22,7 @@ def ranch_it_up():
             pic = pic['response'][randResponse]['photos'][0]['original_size']['url']
             break
 
-    with open('access_token.cfg','r') as f:
+    with open('/home/RanchBot/access_token.cfg','r') as f:
         access_token = f.read()
 
     """This was what we did to get the permanent key
