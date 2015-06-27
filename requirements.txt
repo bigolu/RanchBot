@@ -1,1 +1,5 @@
-facebook-sdk
+argparse==1.2.1
+facebook-sdk==0.4.0
+requests==2.7.0
+requirements==0.1
+wsgiref==0.1.2
