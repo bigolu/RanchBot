@@ -1,6 +1,3 @@
-## Ranch Bot
+# Ranch Bot
 
-This is a bot that posts daily to the r a n c h facebook page.
-
-
-
+A bot that makes daily wall posts to the R a n c h facebook page.
