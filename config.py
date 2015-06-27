@@ -1,6 +1,0 @@
-#Credentials for the app
-app_id='1085977088086047'
-app_secret='9acda75c029a025ca020467a970fc14b'
-
-#permanent (never expires) Token for the RANCH page which allows us to post on its behalf
-access_token='CAAPbsL6R0B8BACXDfZBGc7vnMJhJZCS98C6QlMdDaZBENujbfJRWBcj2Ht8ZCDIaGPZBtTiR7cxA40PGuBPZCwADYpQLi5ptfHmPZBMbZCQPnpRSN4sRBb8yBSn7JF9P9ozL0a1MkkGJRLbfZBC7dJOHYp4LYestku6i6ap6YQQZBo9pYSkvFA9nOQ'
