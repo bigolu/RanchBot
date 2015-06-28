@@ -12,7 +12,7 @@ To make a post to a page you ar an admin of, you will need to get a series of sh
 3. Next, go to to the Facebook Graph API Explorer and select your app on the dropdown next to Application. Then click get access token. When the permissions page pops up, be sure to check off manage_pages under the extended permissions.
 
 4. Once you have the token, run get_token.py along with your token and the name of your page, and the permenant token will generated into the file perm_token.cfg.
-[Example](https://github.com/biggie96/RanchBot/blob/master/example.png)
+[Example](https://raw.githubusercontent.com/biggie96/RanchBot/master/example.png)
 
 *To make use of the token check out an SDK in the language of your choice:
 - [Javascript](https://developers.facebook.com/docs/javascript)
