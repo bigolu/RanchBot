@@ -11,6 +11,8 @@ to replace any and all nouns with ranch
 
  And finally it combines the two to make a wall post.
 
+<a href="https://www.facebook.com/raaanchhh" target="_blank">Ranch Page</a>
+
 
 ##Making posts to a facebook page
 To make a post to a page you ar an admin of, you will need to get a series of short-lived tokens which ultimately lead you to a never-expiring token. Rather than do all of that, you can just use the get_token.py script in this repo, here's how:
