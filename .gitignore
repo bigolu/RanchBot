@@ -5,5 +5,8 @@ venv/
 config.py
 perm_token.cfg
 
+#Language processor
+nltk
+
 #Misc
 *.pyc
