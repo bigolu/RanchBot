@@ -10,6 +10,7 @@ Next, it gets a random quote using the [quotesondesign api](http://quotesondesig
 
 ##Making posts to a facebook page
 To make a post to a page you ar an admin of, you will need to get a series of short-lived tokens which ultimately lead you to a never-expiring token. Rather than do all of that, you can just use the get_token.py script in this repo, here's how:
+
 1. Create a Facebook app
 
 2. Open the config-example.py file and replace your_id and your_secret with your app id and secret. Then rename the file to config.py
