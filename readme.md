@@ -3,7 +3,11 @@ A bot on DigitalOcean that makes daily wall posts to the R a n c h Facebook page
 
 First, it searches tumblr for ranch related pictures.
 
-Next, it gets a random quote using the [quotesondesign api](http://quotesondesign.com/) and processes it using the [Natural Language Toolkit](http://www.nltk.org/) to replace any and all nouns with ranch
+Next, it gets a random quote using the
+<a href="http://quotesondesign.com/" target="_blank">quotesondesign</a>
+api and processes it using the
+<a href="http://www.nltk.org/" target="_blank">Natural Language Toolkit</a>
+to replace any and all nouns with ranch
 
  And finally it combines the two to make a wall post.
 
@@ -18,12 +22,14 @@ To make a post to a page you ar an admin of, you will need to get a series of sh
 3. Next, go to to the Facebook Graph API Explorer and select your app on the dropdown next to Application. Then click get access token. When the permissions page pops up, be sure to check off manage_pages under the extended permissions.
 
 4. Once you have the token, run get_token.py along with your token and the name of your page, and the permenant token will generated into the file perm_token.cfg.
-[Example](https://raw.githubusercontent.com/biggie96/RanchBot/master/example.png)
+
+Example:
+![alt tag](https://raw.githubusercontent.com/biggie96/RanchBot/master/example.png)
 
 *To make use of the token check out an SDK in the language of your choice:
-- [Javascript](https://developers.facebook.com/docs/javascript)
-- [iOS](https://developers.facebook.com/docs/ios)
-- [Android](https://developers.facebook.com/docs/android)
-- [PHP](https://developers.facebook.com/docs/reference/php/4.0.0)
-- [Unity](https://developers.facebook.com/docs/unity)
-- [Python](http://facebook-sdk.readthedocs.org/en/latest/)
+- <a href="https://developers.facebook.com/docs/javascript" target="_blank">Javascript</a>
+- <a href="https://developers.facebook.com/docs/ios" target="_blank">iOS</a>
+- <a href="https://developers.facebook.com/docs/android" target="_blank">Android</a>
+- <a href="https://developers.facebook.com/docs/reference/php/4.0.0" target="_blank">PHP</a>
+- <a href="https://developers.facebook.com/docs/unity" target="_blank">Unity</a>
+- <a href="http://facebook-sdk.readthedocs.org/en/latest/" target="_blank">Python</a>
