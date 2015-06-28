@@ -6,7 +6,7 @@ config.py
 perm_token.cfg
 
 #Language processor
-nltk
+nltk/
 
 #Misc
 *.pyc
