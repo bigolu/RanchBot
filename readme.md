@@ -1,10 +1,15 @@
 # Ranch Bot
-A bot that makes daily wall posts to the R a n c h Facebook page.
+A bot on DigitalOcean that makes daily wall posts to the R a n c h Facebook page.
 
-First, it searches tumblr for ranch related pictures and then combines it with a random quote, replacing all nouns with ranch, and finally makes a wall post.
+First, it searches tumblr for ranch related pictures.
+
+Next, it gets a random quote using the [quotesondesign api](http://quotesondesign.com/) and processes it using the [Natural Language Toolkit](http://www.nltk.org/) to replace any and all nouns with ranch
+
+ And finally it combines the two to make a wall post.
+
 
 ##Making posts to a facebook page
-To make a post to a page you ar an admin of, you will need to get a series of short-lived tokens which ultimately lead you to a never-expiring token. Rather than do all of that, you can just use the get_token.py script which does it for you:
+To make a post to a page you ar an admin of, you will need to get a series of short-lived tokens which ultimately lead you to a never-expiring token. Rather than do all of that, you can just use the get_token.py script in this repo, here's how:
 1. Create a Facebook app
 
 2. Open the config-example.py file and replace your_id and your_secret with your app id and secret. Then rename the file to config.py
