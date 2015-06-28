@@ -38,7 +38,8 @@ def get_pic():
 
 """ Gets a random quote, replaces all nouns with ranch, and returns it"""
 def get_ranch_quote():
-    nltk.download('punkt'); #needed for proccessing words
+    nltk.download('punkt')  #needed for proccessing words
+    nltk.download('maxent_treebank_pos_tagger') #also needed for processing words
     quote = requests.get('http://quotesondesign.com/api/3.0/api-3.0.json').json()['quote']
     words = nltk.word_tokenize(quote) #split quote into seperate words
 
