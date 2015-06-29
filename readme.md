@@ -35,3 +35,6 @@ Example:
 - <a href="https://developers.facebook.com/docs/reference/php/4.0.0" target="_blank">PHP</a>
 - <a href="https://developers.facebook.com/docs/unity" target="_blank">Unity</a>
 - <a href="http://facebook-sdk.readthedocs.org/en/latest/" target="_blank">Python</a>
+
+##Resources
+<a href="https://www.digitalocean.com/" target="_blank">Digital Ocean</a>, <a href="https://developers.facebook.com/docs/graph-api" target="_blank">Facebook Graph API</a>, <a href="http://www.nltk.org/" target="_blank">Natural Language Toolkit</a>, <a href="http://quotesondesign.com/" target="_blank">Quotesondesign</a>
