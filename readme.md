@@ -15,7 +15,7 @@ to replace any and all nouns with ranch
 
 
 ##Making posts to a facebook page
-To make a post to a page you ar an admin of, you will need to get a series of short-lived tokens which ultimately lead you to a never-expiring token. Rather than do all of that, you can just use the get_token.py script in this repo, here's how:
+To make posts to a page you are an admin of, you will need to get a series of short-lived tokens which ultimately lead you to a never-expiring token. Rather than do all of that, you can just use the get_token.py script in this repo, here's how:
 
 1. Create a Facebook app
 
@@ -28,13 +28,5 @@ To make a post to a page you ar an admin of, you will need to get a series of sh
 Example:
 ![alt tag](https://raw.githubusercontent.com/biggie96/RanchBot/master/example.png)
 
-*To make use of the token check out an SDK in the language of your choice:
-- <a href="https://developers.facebook.com/docs/javascript" target="_blank">Javascript</a>
-- <a href="https://developers.facebook.com/docs/ios" target="_blank">iOS</a>
-- <a href="https://developers.facebook.com/docs/android" target="_blank">Android</a>
-- <a href="https://developers.facebook.com/docs/reference/php/4.0.0" target="_blank">PHP</a>
-- <a href="https://developers.facebook.com/docs/unity" target="_blank">Unity</a>
-- <a href="http://facebook-sdk.readthedocs.org/en/latest/" target="_blank">Python</a>
-
 ##Resources
-<a href="https://www.digitalocean.com/" target="_blank">Digital Ocean</a>, <a href="https://developers.facebook.com/docs/graph-api" target="_blank">Facebook Graph API</a>, <a href="http://www.nltk.org/" target="_blank">Natural Language Toolkit</a>, <a href="http://quotesondesign.com/" target="_blank">Quotesondesign</a>
+<a href="https://www.digitalocean.com/" target="_blank">Digital Ocean</a>, <a href="https://developers.facebook.com/docs/graph-api" target="_blank">Facebook Graph API</a>, <a href="http://www.nltk.org/" target="_blank">Natural Language Toolkit</a>, <a href="http://quotesondesign.com/" target="_blank">Quotesondesign</a>, <a href="http://facebook-sdk.readthedocs.org/en/latest/" target="_blank">Python facebook-sdk</a>
