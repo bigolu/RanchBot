@@ -23,7 +23,11 @@ To make posts to a page you are an admin of, you will need to get a series of sh
 
 3. Next, go to to the Facebook Graph API Explorer and select your app on the dropdown next to Application. Then click get access token. When the permissions page pops up, be sure to check off manage_pages under the extended permissions.
 
-4. Once you have the token, run get_token.py along with your token and the name of your page, and the permenant token will generated into the file perm_token.cfg.
+4. Set up a [python virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
+
+5. Install the python packages in `requirements.txt` by running `pip install -r requirements.txt`.
+
+6. Once you have the token, run `get_token.py` along with your token and the name of your page, and the permenant token will generated into the file perm_token.cfg.
 
 Example:
 ![alt tag](https://raw.githubusercontent.com/biggie96/RanchBot/master/example.png)
