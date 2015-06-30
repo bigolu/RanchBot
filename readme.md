@@ -25,7 +25,7 @@ To make posts to a page you are an admin of, you will need to get a series of sh
 
 4. Set up a [python virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
-5. Install the python packages in `requirements.txt` by running `pip install -r requirements.txt`.
+5. Install the python packages in `requirements.txt` by running `pip install -r requirements.txt`. If this results in an error, run `sudo apt-get install python-dev` and try again.
 
 6. Once you have the token, run `get_token.py` along with your token and the name of your page, and the permenant token will generated into the file perm_token.cfg.
 
