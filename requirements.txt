@@ -1,17 +1,12 @@
 argparse==1.2.1
-cffi==1.1.2
-cryptography==0.9.1
 enum34==1.0.4
 facebook-sdk==0.4.0
 idna==2.0
 ipaddress==1.0.7
 ndg-httpsclient==0.4.0
-nltk==3.0.3
-numpy==1.9.2
 pyOpenSSL==0.15.1
 pyasn1==0.1.8
 pycparser==2.14
 requests==2.7.0
-requirements==0.1
 six==1.9.0
 wsgiref==0.1.2
