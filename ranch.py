@@ -10,8 +10,7 @@ import nltk
 def wall_post():
     quote = get_ranch_quote() #get a ranch quote
     pic_url = get_pic() #get url of ranch related image
-    with open('perm_token.cfg', 'r') as f: #get access_token for facebook page
-        token = f.read()
+    token = config.perm_token
 
     attachment =  { #setup body of the wall post
     'name': quote,
@@ -54,7 +53,7 @@ def get_ranch_quote():
         if word[1] == 'NN': #if the word is noun
             quote += ' ' + 'ranch'
         else:
-            if word[0] in '.,:!\'?': #dont wanna add space before punctuation
+            if (word[0] in '.,:!\'?') or ('\'' in word[0]): #dont wanna add space before punctuation or before the "n't" in contractions
                 quote += word[0]
             else:
                 quote += ' ' + word[0]
